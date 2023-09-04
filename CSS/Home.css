@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@500&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@500&family=Poppins&family=Rubik&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #f7ece3 ;
+}
+
+#nav-bar{
+    background-color: #f7ece3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 70px;
+}
+
+#nav-bar a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500px;
+    font-size: 18px;
+    font-family: 'Noto Naskh Arabic';
+}
+
+#content-nav a {
+    color:black;
+    margin-left: 130px;
+    font-size: 18px;
+    text-decoration: none;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+    z-index:1;
+}
+
+#content-nav a:hover{
+    border-bottom: 3px solid #8da977 ;
+    -webkit-transition: all .1s;
+    -moz-transition: all .1s;
+    transition: all .1s;
+    z-index:1;
+    padding-bottom: 3px;    
+}
+#content-nav a:hover::after{
+    transition: 0.5s;
+}
+#logo1{
+    height: 9vh; 
+
+}
+
+#login-button{
+    border:1.5px solid #8da977  ;
+    background-color: transparent ;
+    padding:8px;
+    width: 140px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #46682E;
+    font-size: 15px;
+    word-spacing: 2px;
+    font-family: 'Noto Naskh Arabic';
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    transition: 0.4s;
+}
+
+#login-button:hover{
+    background-color: #8da977;
+    color: white;
+    transition: 0.4s;
+}
+
+#lang-button{
+   margin-left: 145px;
+   font-family: 'Poppins', sans-serif;
+   letter-spacing: 1px;
+   border: 1px solid #f7ece3;
+   background-color: #f7ece3;
+   padding-top: 5px;
+   padding-bottom: 4px;
+   padding-left: 15px;
+   padding-right: 15px;
+   border-radius: 40px;
+   transition: 0.3s;
+}
+#lang-button:hover{
+    border: 1px solid #C9C0B8;
+    background-color: #C9C0B8;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 40px;
+    transition: 0.3s;
+}
+#front-back-color{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 70vh;
+}
+
+#front-back-color img{
+    height: auto;
+    height:500px;
+    padding-right: 75px;
+}
+
+#main{
+    width: 900px;
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+}
+
+#hero-box #hero-heading{
+    color: #1B263B;
+    font-size: 50px ;
+    text-transform: capitalize;
+    margin-bottom: 55px;
+    font-family: 'Noto Naskh Arabic';
+}
+
+#hero-box #hero-desc{
+    word-spacing: 1px;
+    color:#1B263B;
+    line-height:35px;
+    font-size: 20px;
+    margin-bottom: 45px;
+    font-family: 'Noto Naskh Arabic';
+    font-weight: bold;
+}
+

@@ -25,7 +25,7 @@ firstsection.id = 'flex'
 
     let h5 = document.createElement('h5')
     h5.id = 'h5'
-    h5.innerHTML = ' خصم 37% فتره مححدده'
+    h5.innerHTML = ' خصم 37% لفتره محدوده'
     dcards.appendChild(h5)
 
     let dprice = document.createElement('div')
@@ -71,7 +71,7 @@ firstsection.id = 'flex'
 
     let h5 = document.createElement('h5')
     h5.id = 'h5'
-    h5.innerHTML = 'خصم 48% فتره مححدده'
+    h5.innerHTML = 'خصم 48% لفتره محدوده'
     dcards.appendChild(h5)
 
     let dprice = document.createElement('div')

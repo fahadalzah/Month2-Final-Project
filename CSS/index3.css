@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    box-sizing: border-box;
+
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 560px;
+}
+
+html {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: #E0E1DD;
+    max-width: 100%;
+    min-height: 55px;
+    box-shadow: 1px 1px 40px 0px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 1px 1px 40px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 1px 1px 40px 0px rgba(0, 0, 0, 1);
+}
+
+nav img {
+    position: relative;
+    max-width: 13%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+#front-back-color{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 70vh;
+    background-color:#e3fafb;
+}
+
+#front-back-color img{
+    height: auto;
+    height:450px;
+    padding-right: 75px;
+  
+}
+
+#main{
+    width: 900px;
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+    margin-top: 10vh;
+}
+
+#hero-box #hero-heading{
+    color: #2db473;
+    font-size: 60px ;
+    text-transform: capitalize;
+    margin-bottom: 55px;
+    font-family: 'Noto Sans Arabic', sans-serif;
+}
+
+#hero-box #hero-desc{
+    word-spacing: 1px;
+    color:#3E366C;
+    line-height:35px;
+    font-size: 16px;
+    margin-bottom: 45px;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    margin: 5%;
+    font-size: 70px;
+    color: #2db473;
+}
+

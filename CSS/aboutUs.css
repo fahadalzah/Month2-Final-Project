@@ -105,6 +105,11 @@ html{
      transition: 0.3s;
  }
 
+ #lang-button img{
+    height: 4vh; 
+    align-items: center;
+}
+
 #front-back-color{
     width: 100%;
     background-color: auto;

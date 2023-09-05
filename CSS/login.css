@@ -120,6 +120,11 @@
      border-radius: 40px;
      transition: 0.3s;
  }
+
+ #lang-button img{
+    height: 4vh; 
+    align-items: center;
+}
 section #im1 {
     position: absolute;
     height: 500px;

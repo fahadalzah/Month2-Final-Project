@@ -5,12 +5,13 @@
 
 body{
     font-family: Tajawal;
+    background-color: whitesmoke;
 }
 #cards{
     width: 300px;
     height: 420px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    background-color: rgba(100, 100, 111, 0.2);
+    background-color: white;
     margin: auto;
     border-radius: 10px;
     text-align: start;
@@ -31,9 +32,13 @@ body{
     margin-bottom: 10px;
     width:"216" ;
     height:"216";
+    padding: 6px;
+    padding-bottom: 0px;
+    padding-top: 0px;
 }
+
 #h3{
-    color: rgb(19, 18, 18);
+    color: #92E3A9;
     margin-bottom: 0px;
     margin-right: 15px;
 }
@@ -45,7 +50,7 @@ body{
 
 }
 #p1{
-    color: red;
+    color: #92E3A9;
     margin-right: 15px;
 
 }
@@ -66,18 +71,45 @@ del{
     width: 30px;
 }
 #cartimg:hover{
-    background-color: #cccccc;
+    background-color: whitesmoke;
     border-radius: 10px;
     height: 30px;
 }
 #imgphone{
     width:216px  ;
     height:216px;
+    padding: 30px;
+    padding-top: 0;
 }
 #flex{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 3%;
+    gap: 1%;
+    width: 90%;
+    overflow-x: scroll;
     margin: 20px;
+    margin: auto;
+}
+#logo{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+    color: #92E3A9;
+}
+#logoH{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+    color: #92E3A9;
 }

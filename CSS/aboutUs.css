@@ -7,30 +7,34 @@
 }
 
 body{
-    background-color: #f7ece3 ;
+    background-color: white ;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 #nav-bar{
-    background-color: #f7ece3;
+    background-color:whitesmoke;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 120px;
     padding-right: 120px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    height: 70px;
+    height: 80px;
 }
 
 #nav-bar a{
     text-decoration: none;
-    color: black;
+    color: #3E366C;
     font-weight: 500px;
     font-size: 18px;
     font-family: 'Noto Naskh Arabic';
 }
 
 #content-nav a {
-    color:black;
+    color:#3E366C;
     margin-left: 130px;
     font-size: 18px;
     text-decoration: none;
@@ -41,7 +45,7 @@ body{
 }
 
 #content-nav a:hover{
-    border-bottom: 3px solid #8da977 ;
+    border-bottom: 3px solid #47BFAF ;
     -webkit-transition: all .1s;
     -moz-transition: all .1s;
     transition: all .1s;
@@ -55,16 +59,15 @@ body{
     height: 9vh; 
 
 }
-
 #login-button{
-    border:1.5px solid #8da977  ;
+    border:1.5px solid #4e4773  ;
     background-color: transparent ;
     padding:8px;
     width: 140px;
     text-align: center;
     border-radius: 10px;
     cursor: pointer;
-    color: #46682E;
+    color: #3E366C;
     font-size: 15px;
     word-spacing: 2px;
     font-family: 'Noto Naskh Arabic';
@@ -73,34 +76,34 @@ body{
 }
 
 #login-button:hover{
-    background-color: #8da977;
+    background-color: #4e4773;
     color: white;
     transition: 0.4s;
 }
 
 #lang-button{
-   margin-left: 145px;
-   font-family: 'Poppins', sans-serif;
-   letter-spacing: 1px;
-   border: 1px solid #f7ece3;
-   background-color: #f7ece3;
-   padding-top: 5px;
-   padding-bottom: 4px;
-   padding-left: 15px;
-   padding-right: 15px;
-   border-radius: 40px;
-   transition: 0.3s;
-}
-#lang-button:hover{
-    border: 1px solid #C9C0B8;
-    background-color: #C9C0B8;
+    margin-left: 145px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
     padding-top: 5px;
-    padding-bottom: 3px;
+    padding-bottom: 4px;
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 40px;
     transition: 0.3s;
-}
+ }
+ #lang-button:hover{
+     border: 1px solid #C0C0C0;
+     background-color: #C0C0C0;
+     padding-top: 5px;
+     padding-bottom: 3px;
+     padding-left: 15px;
+     padding-right: 15px;
+     border-radius: 40px;
+     transition: 0.3s;
+ }
 
 #front-back-color{
     width: 100%;
@@ -133,7 +136,7 @@ body{
 }
 
 #hero-box #hero-heading{
-    color: #1B263B;
+    color: #47BFAF;
     font-size: 60px ;
     text-transform: capitalize;
     margin-bottom: 45px;
@@ -144,7 +147,7 @@ body{
 #hero-box #hero-desc{
     
     word-spacing: 1px;
-    color:#1B263B;
+    color:#3E366C;
     line-height:38px;
     font-size: 23px;
     margin-bottom: 50px;
@@ -154,7 +157,7 @@ body{
 
 
 #button1{
-    background: #fa9746;
+    background: #3A5F8F;
     color:white;
     text-decoration: none;
     border: 5px solid transparent;
@@ -168,6 +171,6 @@ body{
 }
 
 #button1:hover{
-    background-color: #252525;
+    background-color: #4e4773;
     transition: 0.5s;
 }

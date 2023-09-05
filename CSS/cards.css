@@ -5,8 +5,7 @@
 
 body{
     font-family: Tajawal;
-    background-color: #E0E1DD;
-    overflow: hidden;
+    background-color: whitesmoke;
 }
 #cards{
     width: 300px;
@@ -92,13 +91,25 @@ del{
     margin: 20px;
     margin: auto;
 }
-#h1{
-    text-align: center;
+#logo{
+    display: block;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 30px;
     background-color: white;
     padding: 5px;
-    border-radius: 10px;
-    width: fit-content;
-    
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+    color: #92E3A9;
+}
+#logoH{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+    color: #92E3A9;
 }

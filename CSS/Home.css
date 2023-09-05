@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@500&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@500&family=Poppins&family=Rubik&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: white;
+}
+
+#nav-bar{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 80px;
+}
+
+#nav-bar a{
+    text-decoration: none;
+    color: #3E366C;
+    font-weight: 500px;
+    font-size: 18px;
+    font-family: 'Noto Naskh Arabic';
+}
+
+#content-nav a {
+    color:#3E366C;
+    margin-left: 130px;
+    font-size: 18px;
+    text-decoration: none;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+    z-index:1;
+    font-family: 'Noto Naskh Arabic';
+}
+
+#content-nav a:hover{
+    border-bottom: 3px solid #47BFAF ;
+    -webkit-transition: all .1s;
+    -moz-transition: all .1s;
+    transition: all .1s;
+    z-index:1;
+    padding-bottom: 3px;    
+}
+#content-nav a:hover::after{
+    transition: 0.5s;
+}
+#logo1{
+    height: 9vh; 
+
+}
+
+#login-button{
+    border:1.5px solid #3E366C  ;
+    background-color: transparent ;
+    padding:8px;
+    width: 140px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #3E366C;
+    font-size: 15px;
+    word-spacing: 2px;
+    font-family: 'Noto Naskh Arabic';
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    transition: 0.4s;
+}
+
+#login-button:hover{
+    background-color: #4e4773;
+    color: white;
+    transition: 0.4s;
+}
+
+#lang-button img{
+    height: 4vh; 
+    align-items: center;
+}
+
+#lang-button{
+   margin-left: 145px;
+   font-family: 'Poppins', sans-serif;
+   letter-spacing: 1px;
+   border: 1px solid whitesmoke;
+   background-color: whitesmoke;
+   padding-top: 3px;
+   padding-bottom: 4px;
+   padding-left: 15px;
+   padding-right: 15px;
+   border-radius: 40px;
+   transition: 0.3s;
+}
+#lang-button:hover{
+    border: 1px solid #C0C0C0;
+    background-color: #C0C0C0;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 40px;
+    transition: 0.3s;
+}
+#front-back-color{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 70vh;
+}
+
+#front-back-color img{
+    height: auto;
+    height:450px;
+    padding-right: 75px;
+  
+}
+
+#main{
+    width: 900px;
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+    margin-top: 10vh;
+}
+
+#hero-box #hero-heading{
+    color: #47BFAF;
+    font-size: 50px ;
+    text-transform: capitalize;
+    margin-bottom: 55px;
+    font-family: 'Noto Sans Arabic', sans-serif;
+}
+
+#hero-box #hero-desc{
+    word-spacing: 1px;
+    color:#3E366C;
+    line-height:35px;
+    font-size: 20px;
+    margin-bottom: 45px;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-weight: bold;
+}
+
+#father{
+    height: 140vh;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: column;
+    background-color: #47BFAF;
+}
+
+#square{
+     background-color: #514b70;
+     border-radius: 15px;
+     width: 88vw;
+     height: 65vh;
+     display: flex;
+    justify-content: space-between ;
+}
+
+#cards{
+    border: 2px solid black;
+    width: 315px;
+    height: 415px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+    margin: auto;
+    border-radius: 20px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start; 
+    direction: rtl;
+    transition: 0.3s;
+}
+#cards:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 320px;
+    height: 420px;
+    transition: 0.3s;
+
+}
+#phone{
+    margin-bottom: 0px;
+    margin: 0 auto 0 auto;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width:"15" ;
+    height:"15";
+}
+#h3{
+    color: black;
+    margin-right: 15px;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    
+}
+#p1{
+    color: black;
+    margin-right: 10px;
+    line-height: 25px;
+    font-family: 'Noto Sans Arabic', sans-serif;
+
+}
+
+#imgphone{
+    width:210px  ;
+    height:210px;
+}
+
+#title{
+    color: white;
+    font-size: 50px ;
+    text-transform: capitalize;
+    font-family: 'Noto Sans Arabic', sans-serif;
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+
+#section12{
+    width: 70%;
+    padding: 100px 15%;
+    background-color: #343334;
+    color: white;
+    display: flex;
+  }
+  
+  #section12 div{
+    text-align: center;
+  }
+  
+  #section12 div h3{
+    font-weight: 1000px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+  }
+  
+  .second{
+    flex-grow: 2;
+  }
+  
+  .first a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+  }
+  
+  form button{
+    background: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 10px 30px ;
+    font-size: 15px;
+    cursor: pointer;
+  }

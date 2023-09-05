@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@500&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@500&family=Poppins&family=Rubik&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: white;
+}
+
+#nav-bar{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 80px;
+}
+
+#nav-bar a{
+    text-decoration: none;
+    color: #3E366C;
+    font-weight: 500px;
+    font-size: 18px;
+    font-family: 'Noto Naskh Arabic';
+}
+
+#content-nav a {
+    color:#3E366C;
+    margin-left: 130px;
+    font-size: 18px;
+    text-decoration: none;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+    z-index:1;
+    font-family: 'Noto Naskh Arabic';
+}
+
+#content-nav a:hover{
+    border-bottom: 3px solid #47BFAF ;
+    -webkit-transition: all .1s;
+    -moz-transition: all .1s;
+    transition: all .1s;
+    z-index:1;
+    padding-bottom: 3px;    
+}
+#content-nav a:hover::after{
+    transition: 0.5s;
+}
+#logo1{
+    height: 9vh; 
+
+}
+
+#login-button{
+    border:1.5px solid #3E366C  ;
+    background-color: transparent ;
+    padding:8px;
+    width: 140px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #3E366C;
+    font-size: 15px;
+    word-spacing: 2px;
+    font-family: 'Noto Naskh Arabic';
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    transition: 0.4s;
+}
+
+#login-button:hover{
+    background-color: #4e4773;
+    color: white;
+    transition: 0.4s;
+}
+
+#lang-button img{
+    height: 4vh; 
+    align-items: center;
+}
+
+#lang-button{
+   margin-left: 145px;
+   font-family: 'Poppins', sans-serif;
+   letter-spacing: 1px;
+   border: 1px solid whitesmoke;
+   background-color: whitesmoke;
+   padding-top: 3px;
+   padding-bottom: 4px;
+   padding-left: 15px;
+   padding-right: 15px;
+   border-radius: 40px;
+   transition: 0.3s;
+}
+#lang-button:hover{
+    border: 1px solid #C0C0C0;
+    background-color: #C0C0C0;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 40px;
+    transition: 0.3s;
+}
+#front-back-color{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 70vh;
+}
+
+.contact {
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
+    margin-top: 55px;
+    margin-right: 270px;
+    padding-bottom: 15%;
+
+  }
+  .contact .content {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  @media (max-width: 767px) {
+    .contact .content {
+      flex-direction: column;
+    }
+  }
+  .contact .content form {
+    flex-basis: 70%;
+  }
+  .contact .content form .main-input {
+    padding: 25px;
+    display: block;
+    border: 1.5px solid #4e4773;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    
+  }
+  .contact .content form .main-input:focus {
+    outline: none;
+  }
+  .contact .content form textarea.main-input {
+    height: 200px;
+  }
+  .contact .content form input[type="submit"] {
+    background-color: var(--main-color);
+    color: white;
+    padding: 20px;
+    border: none;
+    display: flex;
+    margin-left: auto;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .contact .content .info {
+    flex-basis: 25%;
+  }
+  @media (max-width: 767px) {
+    .contact .content .info {
+      order: -1;
+      text-align: center;
+    }
+  }
+  .contact .content .info h4 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: 1000;
+    font-size:25px;
+  }
+  .contact .content .info .phone {
+    display: block;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  .contact .content .info h4:nth-of-type(2) {
+    margin-top: 90px;
+  }
+  @media (max-width: 767px) {
+    .contact .content .info h4:nth-of-type(2) {
+      margin-top: 30px;
+    }
+  }
+  .contact .content .info address {
+    color: #777;
+    line-height: 2;
+  }
+  @media (max-width: 767px) {
+    .contact .content .info address {
+      margin-bottom: 55px;
+    }
+  }
+
+.main-heading h2{
+    color: #47BFAF;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 700px;
+  letter-spacing: 0.5px;
+
+}
+
+#button12{
+    border:1.5px solid #0075AC ;
+    background-color: transparent ;
+    padding:8px;
+    width: 120px;
+    text-align: center;
+    border-radius: 30px;
+    cursor: pointer;
+    color: black;
+    font-size: 15px;
+    word-spacing: 2px;
+    font-family: 'Noto Naskh Arabic';
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    transition: 0.4s;
+}
+
+#button12:hover{
+    background-color: #0075AC;
+    color: white;
+    transition: 0.4s;
+}

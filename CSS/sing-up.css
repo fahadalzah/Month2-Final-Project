@@ -58,7 +58,8 @@ section #im1 {
 #Login h3 {
     text-align: center;
     word-spacing: 1px;
-    font-size: 2.5em;
+    font-size: 2.9em;
+    margin: 3%;
     color: #47BFAF;
 }
 
@@ -68,6 +69,7 @@ section #im1 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-left: 5%;
     left: 50%;
     top: 27%;
     border-style: solid;
@@ -119,7 +121,8 @@ input {
     width: 40%;
     height: 15px;
     border-radius: 3px;
-    margin: 5px;
+    margin: 10px;
+    padding-right: 5%;
 }
 
 input.hover{
@@ -160,4 +163,98 @@ p {
     background-color: #23c483;
     color: white;
     transition: 0.4s;
+}
+footer {
+    background-color: #3E366C;
+}
+
+.footerContainer {
+    height: 1vh;
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    margin: -50px 4% 0 5%;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.socialIcons a i {
+    font-size: 2em;
+    color: #47BFAF;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover {
+    background-color: #47BFAF;
+}
+
+.socialIcons a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+
+.FooterNav {
+    margin: 30px 0;
+}
+
+.FooterNav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.FooterNav ul {
+    color: #2db473;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+    display: block;
+    text-align: center;
+}
+
+.FooterNav ul li a:hover {
+    opacity: 1;
+
+}
+
+.FooterBottom {
+    background-color: #47BFAF;
+    padding: 20px;
+    text-align: center;
+}
+
+.FooterBottom p {
+    color: rgb(255, 255, 255);
+}
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+.FooterNav li {
+    color: #45926e;
+}
+
+.aboutus a {
+    margin: 2%;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900;
 }

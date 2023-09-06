@@ -1,12 +1,15 @@
 
 let body1 = document.getElementById('body')
 let logoA = document.createElement('img')
-logoA.src = '../IMG1/apple (1).png'
+logoA.src = '../IMG1/samsung.png'
 logoA.id = 'logo'
 body1.appendChild(logoA)
 let firstsection = document.createElement('section')
 body1.appendChild(firstsection)
 firstsection.id = 'flex'
+
+
+
 
 
 
@@ -21,7 +24,7 @@ firstsection.id = 'flex'
 
     let imgphone = document.createElement('img')
     dphone.appendChild(imgphone)
-    imgphone.src = "../IMG1/bbphone.png"
+    imgphone.src = "../IMG1/bbphoneS.png"
     imgphone.id = 'imgphone'
 
     let h3 = document.createElement('h3')
@@ -67,7 +70,7 @@ firstsection.id = 'flex'
 
     let imgphone = document.createElement('img')
     dphone.appendChild(imgphone)
-    imgphone.src = "../IMG1/clean.png"
+    imgphone.src = "../IMG1/cleanS.png"
     imgphone.id = 'imgphone'
 
     let h3 = document.createElement('h3')
@@ -114,7 +117,7 @@ firstsection.id = 'flex'
     //this is the creation of the picture and we made it inside the div for it and its src/id
     let imgphone = document.createElement('img')
     dphone.appendChild(imgphone)
-    imgphone.src = "../IMG1/Bphone.png"
+    imgphone.src = "../IMG1/BphoneS.png"
     imgphone.id = 'imgphone'
     // this is the creation for the heading for the work of the phone
     let h3 = document.createElement('h3')
@@ -159,7 +162,7 @@ firstsection.id = 'flex'
 
     let imgphone = document.createElement('img')
     dphone.appendChild(imgphone)
-    imgphone.src = "../IMG1/no-photo.png"
+    imgphone.src = "../IMG1/no-photoS.png"
     imgphone.id = 'imgphone'
 
     let h3 = document.createElement('h3')
@@ -205,7 +208,7 @@ firstsection.id = 'flex'
 
     let imgphone = document.createElement('img')
     dphone.appendChild(imgphone)
-    imgphone.src = "../IMG1/battery.png"
+    imgphone.src = "../IMG1/batteryS.png"
     imgphone.id = 'imgphone'
 
     let h3 = document.createElement('h3')
@@ -251,7 +254,7 @@ firstsection.id = 'flex'
 
     let imgphone = document.createElement('img')
     dphone.appendChild(imgphone)
-    imgphone.src = "../IMG1/update.png"
+    imgphone.src = "../IMG1/updateS.png"
     imgphone.id = 'imgphone'
 
     let h3 = document.createElement('h3')
@@ -297,7 +300,7 @@ firstsection.id = 'flex'
 
     let imgphone = document.createElement('img')
     dphone.appendChild(imgphone)
-    imgphone.src = "../IMG1/bbphone.png"
+    imgphone.src = "../IMG1/bbphoneS.png"
     imgphone.id = 'imgphone'
 
     let h3 = document.createElement('h3')
@@ -307,7 +310,7 @@ firstsection.id = 'flex'
 
     let h5 = document.createElement('h5')
     h5.id = 'h5'
-    h5.innerHTML = ' خصم 37% فتره مححدده'
+    h5.innerHTML = 'خصم 20% فتره مححدده'
     dcards.appendChild(h5)
 
     let dprice = document.createElement('div')
@@ -343,7 +346,7 @@ firstsection.id = 'flex'
 
     let imgphone = document.createElement('img')
     dphone.appendChild(imgphone)
-    imgphone.src = "../IMG1/clean.png"
+    imgphone.src = "../IMG1/cleanS.png"
     imgphone.id = 'imgphone'
 
     let h3 = document.createElement('h3')
